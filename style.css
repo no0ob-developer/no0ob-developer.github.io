@@ -222,3 +222,41 @@ body {
   bottom: 0.5rem;
   right: 0.5rem;
 }
+
+/* Add general styling */
+body {
+  background-color: #1f1f1f;
+  color: #fff;
+  text-align: center;
+}
+
+.redirect-message {
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.redirect-link {
+  margin-top: 20px;
+}
+
+.redirect-link__button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.redirect-link__button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
